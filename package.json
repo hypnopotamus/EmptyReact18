@@ -1,0 +1,35 @@
+{
+  "name": "react18-starter",
+  "version": "0.0.0",
+  "description": "react 18 mostly empty, minimal dependencies, starter project",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypnopotamus/EmptyReact18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypnopotamus/EmptyReact18/issues"
+  },
+  "homepage": "https://github.com/hypnopotamus/EmptyReact18#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
